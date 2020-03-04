@@ -1,14 +1,27 @@
 *{
-    border: black solid 1px;
+   
     font-family: @font ;
     font-size: 64.5%; 
     line-height: 1.4;
 }
-.dot {
-    height: 5px;
-    width: 5px;
-    background-color: #bbb;
-    border-radius: 50%;
-  margin-top: 50px;
-  }
-  .line{display: flex;}
+
+body{
+    font-family: @font ;
+    line-height: 1.4;
+    font-size: .9rem;
+    color: white;
+    background-image:url('https://images.unsplash.com/photo-1550684656-77baedef4775?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80')
+    }
+    
+    .container{
+        max-width: 1000px;
+        width:90%;
+        margin: 0 auto;  
+        @media @tablet{
+            width: 90%;
+        }
+        @media @phone{
+            width: 90%;
+        }
+    
+    }
