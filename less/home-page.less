@@ -1,60 +1,60 @@
-body{
-font-family: @font ;
-line-height: 1.4;
-font-size: .9rem;
-}
-
-
-header{
-    display: flex;
- background-color: @off-white;
-    justify-content: space-evenly;
-    height: 200px;
 
 
 
-nav{
-width: 100%;
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-@media @phone{
 
-} 
-a{
- color: white;
- text-decoration: none;
-
-}
-}
-}
-.container{
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;  
-   
-
-}
 
 .top{
     display: flex;
     @media @phone{
 flex-direction: column;
+width: 100%;
     } 
-}
-  h1{padding: 50px;
-width: 50%;
-font-size: 3rem;
-@media @phone{width: 70%;}
-}
-.top img{
+
+
+img{
    width: 40%;
-    padding: 50px;
+    padding: 30px;
+ 
     @media @phone{width: 90%;padding: 0 0 20px 25px;
     }
 }
-.bottom-text{
-    
+
+}
+  h1{padding: 20px;
+width: 50%;
+font-size: 2rem;
+@media @phone{width: 90%;
+text-align: center;
+
+}
+}
+
+text{
+    @media @phone{width: 100%;} 
     padding: 20px;
  
+}
+p{
+    padding: 10px;
+}
+
+
+#topbottom{    flex-direction: row-reverse;
+    @media @tablet{
+        flex-direction: column; width: 90%;
+    }
+
+    @media @phone{flex-direction: column; width: 90%;}
+    .left{@media @phone{margin: 40px;} @media @tablet{margin: 30px;}}
+    img{margin: 20px;}
+    h2{font-size: 2rem;}
+
+}
+#biggertext{font-size: 1.1rem;
+img{
+    width: 300px;
+}
+}
+.sideby{display: flex;width: 90%;justify-content: space-between;
+    @media @tablet{width: 200%;}
 }
